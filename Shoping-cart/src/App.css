@@ -1,0 +1,14 @@
+span {
+  border-radius: 50%;
+}
+.banner {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.banner-h1 {
+  font-size: 60px;
+}
+.banner-p {
+  font-size: 1.3rem;
+  color: grey;
+}
