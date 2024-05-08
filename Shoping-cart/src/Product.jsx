@@ -46,7 +46,7 @@ function Product(props) {
                 <img src={value.pic} class="card-img-top" alt="..."></img>
                 <div className="card-body">
                   <h5 className="card-title">{value.pName}</h5>
-                  <p className="card-text">{value.description}</p>
+                  <p className="card-text description">{value.description}</p>
                   <p className="card-text">
                     {value.rating}
                     {value.rating}
