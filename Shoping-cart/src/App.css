@@ -12,3 +12,10 @@ span {
   font-size: 1.3rem;
   color: grey;
 }
+.card-img-top {
+  height: 300px;
+  width: 100%;
+}
+i {
+  color: gold;
+}
