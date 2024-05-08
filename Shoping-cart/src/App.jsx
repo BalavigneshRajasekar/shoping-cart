@@ -12,6 +12,8 @@ function App() {
       pName: "Denim Shirt",
       price: "$100",
       rating: <i class="bi bi-star-fill"></i>,
+      description:
+        "This classic denim shirt boasts timeless style, perfect for any casual occasion.",
       status: "not added",
     },
     {
@@ -19,6 +21,8 @@ function App() {
       pName: "Formal Shirt",
       price: "$50",
       rating: <i class="bi bi-star-fill"></i>,
+      description:
+        "This formal shirt tailoring with refined details that commands attention",
       status: "not added",
     },
     {
@@ -26,6 +30,8 @@ function App() {
       pName: "Joggers",
       price: "$120",
       rating: <i class="bi bi-star-fill"></i>,
+      description:
+        "Jogger pants offer a modern and functional design for an active lifestyle",
       status: "not added",
     },
     {
@@ -33,6 +39,8 @@ function App() {
       pName: "Oversize T Shirt",
       price: "$70",
       rating: <i class="bi bi-star-fill"></i>,
+      description:
+        "This oversized t-shirt delivers laid-back vibes with a contemporary twist",
       status: "not added",
     },
     {
@@ -40,6 +48,8 @@ function App() {
       pName: "Gym track",
       price: "$90",
       rating: <i class="bi bi-star-fill"></i>,
+      description:
+        "Ensuring maximum comfort and mobility during training sessions",
       status: "not added",
     },
     {
@@ -47,6 +57,7 @@ function App() {
       pName: "Kurtha",
       price: "$120",
       rating: <i class="bi bi-star-fill"></i>,
+      description: "kurtha blends traditional craftsmanship with modern design",
       status: "not added",
     },
     {
@@ -54,13 +65,17 @@ function App() {
       pName: "Baggy jean",
       price: "$95",
       rating: <i class="bi bi-star-fill"></i>,
+      description:
+        "baggy jeans offer a relaxed fit and urban edge, perfect for creating bold",
       status: "not added",
     },
     {
       pic: "brazzer.jpg",
-      pName: "Brazzer",
+      pName: "Blazer",
       price: "$150",
       rating: <i class="bi bi-star-fill"></i>,
+      description:
+        "blazer elevates any outfit with its tailored silhouette and timeless elegance.",
       status: "not added",
     },
   ];
