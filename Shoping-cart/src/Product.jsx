@@ -1,16 +1,7 @@
 import React, { useState } from "react";
 import Nav from "./Nav";
 import Banner from "./Banner";
-/**
- * Product component that displays a list of products and handles adding and removing them from the cart.
- * @param {Object[]} props.datas - An array of objects representing the products. Each object should have the following properties:
- *  - pic: The URL of the product image.
- *  - pName: The name of the product.
- *  - price: The price of the product.
- *  - rating: The rating of the product.
- *  - status: The status of the product in the cart. Can be either "added" or "not added".
- * @returns {JSX.Element} A JSX element representing the Product component.
- */
+
 function Product(props) {
   const [cartCount, setCartCount] = useState(0);
   // This function take care once user clicked "ADD to cart BTN"
