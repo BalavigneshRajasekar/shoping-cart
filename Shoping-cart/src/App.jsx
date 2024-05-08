@@ -2,8 +2,7 @@ import { useState } from "react";
 
 import "./App.css";
 import Product from "./Product";
-import Banner from "./Banner";
-import Nav from "./Nav";
+
 import Footer from "./Footer";
 
 function App() {
