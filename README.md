@@ -1,7 +1,5 @@
 # shoping-cart
 
-# Add product to cart
-
 ## Description
 
 created a component where user can add different product to the cart and remove from cart
@@ -17,7 +15,7 @@ created a component where user can add different product to the cart and remove 
 
 ## Demo
 
-https://price-card-ui.vercel.app/
+https://shoping-cart-sable.vercel.app/
 
 ## Documentation
 
