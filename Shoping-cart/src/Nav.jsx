@@ -65,7 +65,7 @@ function Nav(props) {
             </li>
           </ul>
           <button class="btn btn-outline-dark me-3 " type="submit">
-            <i class="bi bi-cart-fill"></i> Cart
+            <i class="bi bi-cart-fill text-dark"></i> Cart
             <span className="bg-dark ms-3  px-2 py-1 text-light h-auto">
               {props.cartData}
             </span>
