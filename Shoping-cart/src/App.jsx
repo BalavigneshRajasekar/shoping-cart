@@ -9,7 +9,7 @@ import Footer from "./Footer";
 function App() {
   const ProductsData = [
     {
-      pic: "/src/assets/denim.jpg",
+      pic: "src/assets/denim.jpg",
       pName: "Denim Shirt",
       price: "$100",
       rating: <i class="bi bi-star-fill"></i>,
