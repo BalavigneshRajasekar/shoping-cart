@@ -5,6 +5,7 @@ import Banner from "./Banner";
 function Product(props) {
   const [cartCount, setCartCount] = useState(0);
   // This function take care once user clicked "ADD to cart BTN"
+
   function handleCartAdded(index, status) {
     //Here we change the stauts in the props object in order to show the "REMOVE CART BTN"
     let updateStatus = props.datas.map((value, i) => {
@@ -16,6 +17,7 @@ function Product(props) {
     //This state will + 1 with previous state and render the component to show the updated contents
     setCartCount(1 + cartCount);
   }
+
   // This function take care once user clicked "Remove cart BTN"
   function handleRemoveCart(index, status) {
     //Here we change the stauts in the props object in order to show the "ADD TO CART BTN"
