@@ -1,10 +1,10 @@
 import React from "react";
 
-function Nav() {
+function Nav(props) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light ">
       <div className="container-fluid">
-        <a className="navbar-brand ms-5" href="#">
+        <a className="navbar-brand " href="#">
           Start Bootstrap
         </a>
         <button
@@ -64,9 +64,11 @@ function Nav() {
               </ul>
             </li>
           </ul>
-          <button class="btn btn-outline-dark me-5" type="submit">
+          <button class="btn btn-outline-dark me-3 " type="submit">
             <i class="bi bi-cart-fill"></i> Cart
-            <span className="bg-dark ms-3  px-2 py-1 text-light h-auto">0</span>
+            <span className="bg-dark ms-3  px-2 py-1 text-light h-auto">
+              {props.cartData}
+            </span>
           </button>
         </div>
       </div>
